@@ -1,0 +1,5 @@
+1. postgres
+2. git
+3. aws-cli
+4. airflow
+
