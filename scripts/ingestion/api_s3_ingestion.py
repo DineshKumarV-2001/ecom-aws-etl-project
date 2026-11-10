@@ -14,10 +14,4 @@ response = requests.get(API_URL)
 if response.status_code == 200
     data = response.json()
 
-print("Printing DataFrame")
-df = pd.DataFrame(data)
-print(df)
-
-
-print("writing to Local")
-df.to_csv("data.csv",index=False)  
+print(data)
