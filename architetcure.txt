@@ -1,0 +1,8 @@
+1. Data Extraction From Api and Postgres
+
+API_URL : https://dummyjson.com/products?limit=50
+Postgres : Transactional Datas - customers,order_items,orders,payments,products
+
+2. Requirement : requests, boto3 , pandas, json
+
+ 
